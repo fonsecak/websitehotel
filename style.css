@@ -1,0 +1,19 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+:root {
+    --cor-fundoprincipal: #282B2F;
+    --cor-fundosecundaria: #AA8C79;
+    --cor-fundoterciaria: #F2F0E6;
+    --cor-fundoquartearia: #f2f0e631;
+    --cor-textoprincipal: #F2F0E6;
+    --cor-textosecundaria: #282B2F;
+    --font-principal: "Newsreader", serif;
+}
+
+body {
+    background-color: var(--cor-fundosecundaria);
+    font-family: var(--font-principal);/* alterar depois */
+    font-size: 16px;
+    font-weight: 400;
+}

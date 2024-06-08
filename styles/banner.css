@@ -1,0 +1,26 @@
+.banner {
+    display: inline-block;
+    font-family: var(--font-principal);
+    color: var(--cor-textoprincipal);
+    text-align: center;
+}
+
+.banner__titulo {
+    padding: 1em 0em;
+    margin-left: 40%;
+    font-size: 26px;
+}
+
+#linha-horizontal {
+    position: absolute;
+    top: 12%;
+    width: 170px;
+    border: 1px solid var(--cor-textoprincipal);;
+}
+
+
+.banner__texto {
+    font-weight: 300;
+    padding: 1em;
+    text-align: left;
+}
