@@ -7,7 +7,7 @@
 .rodape-contato {
     text-align: left;
     margin: 0 10%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 1em;
     color: var(--cor-textosecundaria);
 }
@@ -24,8 +24,9 @@
 }
 
 .rodape-formulario input, textarea{
-    background-color: var(--cor-fundoterciaria);
-    border: 1px solid var(--cor-fundoterciaria);
+    background-color: var(--cor-fundosecundaria);
+    border: 2px solid var(--cor-fundoterciaria);
+    border-radius: 5px;
     width: 100%;
     margin: 0.5em 0em;
 }
@@ -55,4 +56,40 @@
     color: #3f3f3f;
     text-align: center;
     padding: 1em;
+}
+
+.rodape-mapa {
+    width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+    .rodape-contato {
+        font-size: 24px;
+        text-align: center;
+    }
+    .rodape-mapa__mapa {
+        width: 80%;
+        height: 350px;
+    }
+    .rodape-formulario__botao {
+        font-size: 24px;
+    }
+    .rodape-formulario {
+        font-size: 28px;
+        text-align: left;
+        margin: 0 15%;
+    }
+    .rodape-formulario input, textarea{
+        padding: 0.5em;
+        font-size: 20px;
+        color: var(--cor-textoprincipal);
+    }
+
+    .rodape-mapa__titulo, .sociais-titulo{
+        font-size: 32px;
+    }
+
+    .fa-brands {
+        font-size: 34px;
+    }
 }

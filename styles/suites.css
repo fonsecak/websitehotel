@@ -49,3 +49,28 @@
     text-decoration: none;
     color: var(--cor-textosecundaria);
 }
+
+@media screen and (min-width: 769px){
+    .suites-container {
+        margin: 1em 9em;
+    }
+
+    .suites-titulo {
+        font-size: 68px;
+    }
+    
+    .suites-container__titulo{
+        font-size: 42px;
+        font-weight: 350;
+    }
+
+    .suites-container__texto {
+        font-size: 34px;
+        font-weight: 250;
+    }
+
+    .suite-botao{
+    margin: 0 30%;
+    padding: 0.5em;
+    }
+}

@@ -1,0 +1,107 @@
+.apartamentos {
+    font-family: var(--font-principal);
+    text-align: center;
+    padding-bottom  : 1em;
+}
+
+.apartamentos-container {
+    background-color: var(--cor-fundoterciaria);
+    border: 1px solid var(--cor-fundoterciaria);
+    margin: 1em 3em;
+}
+
+.apartamentos-container img{
+    width: 100%;
+}
+
+.apartamentos-titulo {
+    font-size: 48px;
+    padding-top: 1em;
+    color: var(--cor-textoprincipal);
+}
+
+.apartamentos-container__titulo {
+    font-size: 32px;
+    font-weight: 350;
+    padding: 0.5em 0em 0.2em 0em;
+    color: var(--cor-textosecundaria);
+}
+
+.apartamentos-especificacoes {
+    list-style: square inside;
+    text-align: left;
+    font-size: 24px;
+    padding: 0.5em 0em;
+    font-weight: 250;
+}
+
+.apartamentos-container .fa-regular, .fa-solid{
+    padding: 0.5em;
+    margin: 0em 0.3em;
+}
+
+.apartamentos-container__icones {
+    padding: 2vh;
+    border-bottom: 2px solid var(--cor-textosecundaria);
+    border-top: 2px solid var(--cor-textosecundaria);
+}
+
+.apartamentos-especificacoes__texto {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.apartamentos-especificacoes__botao {
+    font-size: 24px;
+    background-color: var(--cor-fundosecundaria);
+    margin: 0.5em 0em;
+    padding: 0.5em 0.3em;
+    border-radius: 3px;
+}
+.apartamentos-especificacoes__botao a {
+    text-decoration: none;
+    color: var(--cor-textoprincipal);
+}
+
+/* FEEDBACK */
+
+.apartamentos-feedback {
+    background-color: var(--cor-fundoprincipal);
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.feedback-titulo {
+    font-size: 28px;
+    padding: 0.5em 0em;
+    color: var(--cor-textoprincipal);
+    border-bottom: 1px solid var(--cor-textoprincipal);
+}
+
+.feedback-container img{
+    width: 120px;
+}
+
+.apartamentos-container__feedback {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-fundoterciaria);
+    margin: 1em;
+    padding: 1em;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.apartamentos-container__feedback p{
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--cor-fundoprincipal);
+}
+
+.feedback-stars {
+    font-size: 14px;
+    color: var(--cor-fundoprincipal);
+    font-weight: 200;
+}
+
+

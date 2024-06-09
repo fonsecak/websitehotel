@@ -6,8 +6,12 @@
 }
 
 .banner__titulo {
-    padding: 1em 0em;
+    padding: 0.4em 0em;
     font-size: 26px;
+    background-color: #f2f0e6;
+    margin-right: -15px;
+    margin-left: 150px;
+    color: #aa8679;       
 }
 
 .banner__texto {
@@ -18,8 +22,25 @@
 
 .banner img{
     width: 100%;
+    padding-top: 16px;
 }
 
 .banner {
     margin: 1em;
+}
+
+@media screen and (min-width: 769px) {
+    .banner__titulo {
+        font-size: 36px;
+        margin-left: 25%;
+    }
+
+    .banner img{
+        width: 80%;
+    }
+
+    .banner__texto {
+        font-size: 26px;
+        font-weight: 300;
+    }
 }

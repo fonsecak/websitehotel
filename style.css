@@ -3,6 +3,7 @@
 @import url(styles/suites.css);
 @import url(styles/footer.css);
 @import url(styles/sobre.css);
+@import url(styles/suitesefeed.css);
 
 :root {
     --cor-fundoprincipal: #282B2F;

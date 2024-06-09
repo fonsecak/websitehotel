@@ -5,7 +5,6 @@
     text-align: center;
     background-color: #f2f0e6;
     padding-bottom: 35px;
-    
 }
 
 .sobre2 {
@@ -16,8 +15,7 @@
     font-size: 16px;
     padding-top: 20px;
     font-weight: 300;
-    padding-left: 30px;
-    padding-right: 30px;
+    
 }
 
 .sobre2 li {
@@ -31,8 +29,6 @@
 }
 .imgsobre {
     width: 100%;
-    
-     
 }
 
 .sobre2 p {
@@ -68,13 +64,13 @@
 }
 
 .linha-horizontalesq {
-    width: 250px;
+    width: 239px;
     height: 2px;
     background-color: #282b2f;
 }
 
 .linha-horizontaldir {
-    width: 250px;
+    width: 239px;
     height: 2px;
     background-color: #282b2f;
 
@@ -140,4 +136,30 @@
     margin-left: 90px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.sobre2 li {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 350;
+}
+
+.imagemsobre { 
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/imgsobre.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.imgsobre { 
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/sobreimag2.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
