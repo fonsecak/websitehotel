@@ -128,10 +128,6 @@
         font-size: 42px;
     }
 
-    .apartamentos-container .fa-regular, .fa-solid {
-        font-size: 22px;
-    }
-
     .apartamentos-especificacoes {
         font-size: 28px;
         font-weight: 350;
@@ -164,6 +160,7 @@
     .apartamentos-container__feedback h2{
         font-size: 24px;
     }
+
 }
 
 @media screen and (min-width: 1024px){ 
@@ -211,11 +208,15 @@
     }
 
     .apartamentos-container__feedback h2{
+        font-size: 16px;
+    }
+
+    .fa-regular, .fa-solid {
         font-size: 24px;
     }
 
-    .fa-solid {
-        font-size: 16px;
+    .fa-star {
+        font-size: 12px;
     }
 }
 
@@ -224,7 +225,6 @@
     .apartamentos-container__titulo {
         height: auto;
     }
-
 
 }
 
