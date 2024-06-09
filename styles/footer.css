@@ -15,7 +15,7 @@
 .rodape-formulario {
     font-size: 20px;
     text-align: left;
-    margin: 0 15%;
+    margin: 2em 15%;
 }
 
 .rodape-botao__enviar {
@@ -103,7 +103,7 @@
     .rodape-formulario {
         font-size: 28px;
         text-align: left;
-        margin: 0 15%;
+        margin: 1em 15%;
     }
     .rodape-formulario input, textarea{
         padding: 0.5em;
