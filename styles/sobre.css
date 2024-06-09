@@ -1,165 +1,252 @@
 .sobre {
-    display: inline-block;
-    font-family: var(--font-principal);
-    color: var(--cor-textosecundaria);
-    text-align: center;
-    background-color: #f2f0e6;
-    padding-bottom: 35px;
+  display: inline-block;
+  font-family: var(--font-principal);
+  color: var(--cor-textosecundaria);
+  text-align: center;
+  background-color: #f2f0e6;
+  padding-bottom: 35px;
 }
 
 .sobre2 {
-    display: inline-block;
-    font-family: var(--font-principal);
-    color: var(--cor-textoprincipal);
-    background-color: #282b2f;
-    font-size: 16px;
-    padding-top: 20px;
-    font-weight: 300;
-    
+  display: inline-block;
+  font-family: var(--font-principal);
+  color: var(--cor-textoprincipal);
+  background-color: #282b2f;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
 }
 
 .sobre2 li {
-    padding: 3px;
-    text-align: left;
+  padding: 3px;
+  text-align: left;
 }
 
 .imagemsobre {
-    display: flex;
-    
+  display: flex;
 }
 .imgsobre {
-    width: 100%;
+  width: 100%;
 }
 
 .sobre2 p {
-    text-align: center;
+  text-align: center;
 }
 
 .bemvindo {
-    margin: 20px 0px;
-    padding-left: 10px;
-    font-size: 26px;
+  margin: 20px 0px;
+  padding-left: 10px;
+  font-size: 26px;
 }
 
 .texto-linhaesq {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .texto-linhaesq2 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 35px;
-
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 35px;
 }
 
 .texto-linhadir {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    margin-top: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 35px;
 }
 
 .linha-horizontalesq {
-    width: 239px;
-    height: 2px;
-    background-color: #282b2f;
+  width: 239px;
+  height: 2px;
+  background-color: #282b2f;
 }
 
 .linha-horizontaldir {
-    width: 239px;
-    height: 2px;
-    background-color: #282b2f;
-
+  width: 239px;
+  height: 2px;
+  background-color: #282b2f;
 }
 
 .bemvindo {
-    margin-left: 30px;
-
+  margin-left: 30px;
 }
 
 .historia h1 {
-    font-weight: 400;
-    font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .historia p {
-    font-size: 16px;
-    padding-top: 20px;
-    font-weight: 300;
-    padding-left: 30px;
-    padding-right: 30px;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .visao {
-    padding-right: 30px;
-    font-weight: 400;
-    font-size: 20px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .missao {
-    padding-left: 30px;
-    font-weight: 400;
-    font-size: 20px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .valores {
-    padding-right: 30px;
-    font-weight: 400;
-    font-size: 20px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .textovisao {
-    font-size: 16px;
-    padding-top: 20px;
-    font-weight: 300;
-    padding-left: 30px;
-    padding-right: 30px;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .textomissao {
-    font-size: 16px;
-    padding-top: 20px;
-    font-weight: 300;
-    padding-left: 30px;
-    padding-right: 30px;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .textovalores {
-    font-size: 16px;
-    padding-top: 20px;
-    font-weight: 300;
-    text-align: left;
-    margin-left: 90px;
-    padding-left: 30px;
-    padding-right: 30px;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .sobre2 li {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: 350;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 350;
 }
 
-.imagemsobre { 
-    height: 400px;
+.imagemsobre {
+  height: 400px;
+  width: 100%;
+  background-image: url(../img/imgsobre.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgsobre {
+  height: 250px;
+  width: 100%;
+  background-image: url(../img/sobreimag2.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 769px) {
+  .bemvindo {
+    font-size: 30px;
+  }
+
+  .historia h1,
+  .visao,
+  .missao,
+  .valores {
+    font-size: 24px;
+  }
+
+  .historia p,
+  .textovisao,
+  .textomissao,
+  .textovalores {
+    font-size: 22px;
+  }
+
+  .sobre2 {
+    font-size: 22px;
+  }
+
+  .imgsobre {
+    height: 450px;
+  }
+
+  .imagemsobre {
+    height: 450px;
     width: 100%;
     background-image: url(../img/imgsobre.svg);
-    background-position: 50% 50%;
-    background-size: cover;
     background-repeat: no-repeat;
-    
+    background-position: 30% 70%;
+  }
 }
 
-.imgsobre { 
-    height: 250px;
+@media screen and (min-width: 1024px) {
+  .imgsobre {
+    height: 400px;
     width: 100%;
-    background-image: url(../img/sobreimag2.svg);
-    background-position: 50% 50%;
+    background-image: url(../img/recepcao.svg);
+    background-position: 10% 65%;
     background-size: cover;
     background-repeat: no-repeat;
-    
+  }
+
+  .linha-horizontalesq,
+  .linha-horizontaldir {
+    width: 750px;
+    height: 2px;
+    background-color: #282b2f;
+  }
+
+  .bemvindo {
+    font-size: 40px;
+  }
+
+  .historia h1,
+  .visao,
+  .missao,
+  .valores {
+    font-size: 30px;
+  }
+
+  .historia p,
+  .textovisao,
+  .textomissao,
+  .textovalores {
+    font-size: 28px;
+  }
+
+  .sobre2 {
+    padding-bottom: 40px;
+    font-size: 28px;
+  }
+  .sobre2 li {
+    padding: 20px 50px;
+  }
+  .sobre2 p {
+    padding-top: 5px;
+  }
+
+  .sobre2 hr {
+    display: block;
+  }
+
+  .imagemsobre {
+    height: 480px;
+    width: 100%;
+    background-image: url(../img/imgsobre.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 68%;
+  }
 }

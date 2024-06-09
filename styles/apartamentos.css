@@ -1,0 +1,233 @@
+.apartamentos {
+    font-family: var(--font-principal);
+    text-align: center;
+    padding-bottom  : 1em;
+}
+
+.apartamentos-container {
+    background-color: var(--cor-fundoterciaria);
+    border: 1px solid var(--cor-fundoterciaria);
+    margin: 1em 3em;
+}
+
+.apartamentos-container img{
+    width: 100%;
+}
+
+.apartamentos-detalhada {
+    margin: 0% 10%;
+}
+
+.apartamentos-titulo {
+    font-size: 48px;
+    padding-top: 1em;
+    color: var(--cor-textoprincipal);
+}
+
+.apartamentos-container__titulo {
+    font-size: 32px;
+    font-weight: 350;
+    padding: 0.5em 0em 0.2em 0em;
+    color: var(--cor-textosecundaria);
+}
+
+.apartamentos-especificacoes {
+    list-style: square inside;
+    text-align: left;
+    font-size: 24px;
+    padding: 0.5em 0em;
+    font-weight: 250;
+}
+
+.apartamentos-container .fa-regular, .fa-solid{
+    padding: 0.5em;
+    margin: 0em 0.3em;
+}
+
+.apartamentos-container__icones {
+    padding: 2vh;
+    border-bottom: 2px solid var(--cor-textosecundaria);
+    border-top: 2px solid var(--cor-textosecundaria);
+}
+
+.apartamentos-especificacoes__texto {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.apartamentos-especificacoes__botao {
+    font-size: 24px;
+    background-color: var(--cor-fundosecundaria);
+    margin: 0.5em 0em;
+    padding: 0.5em 0.3em;
+    border-radius: 3px;
+}
+.apartamentos-especificacoes__botao a {
+    text-decoration: none;
+    color: var(--cor-textoprincipal);
+}
+
+/* FEEDBACK */
+
+.apartamentos-feedback {
+    background-color: var(--cor-fundoprincipal);
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.feedback-titulo {
+    font-size: 28px;
+    padding: 0.5em 0em;
+    color: var(--cor-textoprincipal);
+    border-bottom: 1px solid var(--cor-textoprincipal);
+}
+
+.feedback-container img{
+    width: 120px;
+}
+
+.apartamentos-container__feedback {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-fundoterciaria);
+    margin: 1em;
+    padding: 1em;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.apartamentos-container__feedback p{
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--cor-fundoprincipal);
+}
+
+.feedback-stars {
+    font-size: 14px;
+    color: var(--cor-fundoprincipal);
+    font-weight: 200;
+}
+
+
+
+@media screen and (min-width: 769px) {
+    .apartamentos-detalhada {
+        margin: 1em 4em;
+    }
+
+    .apartamentos-container {
+        margin: 1em 9em;
+        border: 2px solid var(--cor-fundoterciaria);
+    }
+
+    .apartamentos-titulo{
+        font-size: 68px;
+        padding: 1em 0em;
+    }
+    .apartamentos-container__titulo {
+        font-size: 42px;
+    }
+
+    .apartamentos-container .fa-regular, .fa-solid {
+        font-size: 22px;
+    }
+
+    .apartamentos-especificacoes {
+        font-size: 28px;
+        font-weight: 350;
+    }
+    .apartamentos-especificacoes__texto {
+        font-size: 36px;
+        font-weight: 350;
+    }
+    
+
+    /* FEEDBACK */
+    .feedback-titulo {
+        font-size: 48px;
+    }
+
+    .feedback-container img{
+        width: 30%;
+    }
+
+    .apartamentos-container__feedback{
+        padding: 2em 5em;
+        margin: 2em 3em;
+    }
+
+    .apartamentos-container__feedback p{
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .apartamentos-container__feedback h2{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px){ 
+    .apartamentos-suites {
+        display: flex;
+        width: 100%;
+    } 
+
+    .apartamentos-container{
+        margin: 1em auto;
+        width: 27%;
+        word-wrap: break-word;
+    }
+
+    .apartamentos-container__titulo {
+        height: 8%;
+    }
+
+    
+    /* FEEDBACK */
+    .feedback-container__feedback {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }
+
+    .apartamentos-container__feedback {
+        justify-content: space-between;
+        margin: 1em;
+        padding: 2%;
+        width: 20%;
+    }
+
+    .feedback-titulo {
+        font-size: 48px;
+    }
+
+    .feedback-container img{
+        width: 50%;
+    }
+    .apartamentos-container__feedback p{
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .apartamentos-container__feedback h2{
+        font-size: 24px;
+    }
+
+    .fa-solid {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 1433px) {
+    .apartamentos-container__titulo {
+        height: auto;
+    }
+
+
+}
+
+
+
+

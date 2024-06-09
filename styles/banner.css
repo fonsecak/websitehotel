@@ -3,13 +3,13 @@
     font-family: var(--font-principal);
     color: var(--cor-textoprincipal);
     text-align: center;
+    margin: 1em 0em;
 }
 
 .banner__titulo {
     padding: 0.4em 0em;
     font-size: 26px;
     background-color: #f2f0e6;
-    margin-right: -15px;
     margin-left: 150px;
     color: #aa8679;       
 }
@@ -22,11 +22,7 @@
 
 .banner img{
     width: 100%;
-    padding-top: 16px;
-}
-
-.banner {
-    margin: 1em;
+    padding: 16px 0px;
 }
 
 @media screen and (min-width: 769px) {
@@ -42,5 +38,32 @@
     .banner__texto {
         font-size: 26px;
         font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    hr {
+        display: none;
+    }
+    .banner__titulo {
+        font-size: 56px;
+        margin-left: 60%;
+        padding-left: 1em;
+    }
+
+    .banner img{
+        width: 50%;
+        margin: 2em;
+    }
+
+    .banner__computador {
+        display: flex;
+        align-items: center;
+    }
+
+    .banner__texto{
+        padding: 2em 2em;
+        font-size: 38px;
     }
 }

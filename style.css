@@ -3,7 +3,7 @@
 @import url(styles/suites.css);
 @import url(styles/footer.css);
 @import url(styles/sobre.css);
-@import url(styles/suitesefeed.css);
+@import url(styles/apartamentos.css);
 
 :root {
     --cor-fundoprincipal: #282B2F;
@@ -22,3 +22,4 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+

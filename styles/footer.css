@@ -5,7 +5,7 @@
 }
 
 .rodape-contato {
-    text-align: left;
+    text-align: center;
     margin: 0 10%;
     font-size: 18px;
     padding: 1em;
@@ -18,12 +18,28 @@
     margin: 0 15%;
 }
 
-.rodape-formulario__botao {
+.rodape-botao__enviar {
+    background-color: var(--cor-fundoprincipal);
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    margin-right: 50px;
+    width: 50%;
+    padding: 1em 0em;
+    border-radius: 5px;  
 }
 
-.rodape-formulario input, textarea{
+.rodape-botao a{
+    text-decoration: none;
+    color: var(--cor-textoprincipal);
+}
+
+.rodape-botao__enviar:hover {
+    color: var(--cor-textosecundaria);
+    background-color: var(--cor-fundoterciaria);
+}
+
+
+.rodape-formulario__area{
     background-color: var(--cor-fundosecundaria);
     border: 2px solid var(--cor-fundoterciaria);
     border-radius: 5px;
@@ -62,6 +78,16 @@
     width: 100%;
 }
 
+.rodape-formulario__titulo {
+    color: var(--cor-fundoprincipal);
+    font-weight: 500;
+}
+
+.fa-brands:hover {
+    color: var(--cor-textoprincipal);
+    background-color: var(--cor-textosecundaria);
+}
+
 @media screen and (min-width: 769px) {
     .rodape-contato {
         font-size: 24px;
@@ -92,4 +118,30 @@
     .fa-brands {
         font-size: 34px;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .rodape-contato {
+        margin: 2em;
+        padding: 0;
+    }
+
+    .sociais {
+        margin: 2em;
+    }
+
+    .fa-brands {
+        margin: 2% 25%;
+    }
+
+    .rodape-mapa {
+        width: 30%;
+        margin: 1em;
+    }
+
 }
