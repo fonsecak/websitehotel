@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denic Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a40042052b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho_menu-hamburguer container__imagem"></span>
+            </label>
+                <ul class="lista-menu">
+                    <li class=lista-menu__item><a href="index.html">HOME</a></li>
+                    <li class=lista-menu__item><a href="sobre.html">SOBRE</a></li>
+                    <li class=lista-menu__item><a href="#">APARTAMENTOS</a></li>
+                    <li class=lista-menu__item><a href="#rodape">CONTATO</a></li>
+                </ul>
+        </div>
+        <img src="img/logohotel.svg" alt="logo hotel">
+
+    </header>
+
+    <section class="sobre">
+        <div class="texto-linhaesq">
+            <div class="linha-horizontalesq"></div>
+            <div class="bemvindo">Bem-vindo ao Hotel DENIC</div>
+        </div>
+        <div class="historia">
+            <h1>Nossa História</h1>
+            <p>O Hotel DENIC abriu suas portas em 1890, com a ambição de redefinir
+                a hospitalidade na região. Desde então, evoluímos de um modesto estabelecimento
+                para um ícone de elegância e serviço impecável. Cada capítulo da nossa história
+                é marcado por inovações e melhorias constantes, sempre com o objetivo de oferecer
+                o melhor aos nossos visitantes.</p>
+        </div>
+        <div class="texto-linhadir">
+            <div class="linha-horizontaldir"></div>
+            <div class="visao">Visão</div>
+        </div>
+        <div class="textovisao">
+            <p>Nossa visão é ser reconhecido como o hotel líder em excelência e hospitalidade,
+                não apenas em nossa cidade, mas em toda a região. Queremos ser a primeira escolha
+                para viajantes de negócios e lazer, oferecendo uma estadia que combine luxo,
+                conforto e uma sensação de lar longe de casa.</p>
+        </div>
+
+        <div class="texto-linhaesq2">
+            <div class="linha-horizontalesq"></div>
+            <div class="missao">Missão</div>
+        </div>
+        <div class="textomissao">
+            <p>Nossa missão é proporcionar aos nossos hóspedes uma experiência única e memorável,
+                caracterizada por um atendimento personalizado, conforto inigualável e serviços
+                de alta qualidade. No Hotel DENIC, cada hóspede é tratado como parte da família,
+                e nos esforçamos para superar suas expectativas em todos os aspectos.</p>
+        </div>
+
+        <div class="texto-linhadir">
+            <div class="linha-horizontaldir"></div>
+            <div class="valores">Valores</div>
+        </div>
+        <div class="textovalores">
+
+            <li>Excelência no Atendimento</li>
+            <li>Inovação Contínua</li>
+            <li>Sustentabilidade</li>
+            <li>Integridade e Transparência</li>
+            <li>Comunidade e Inclusão</li>
+
+        </div>
+    </section>
+
+    <div class="imagemsobre">
+        <div class="imgsobre"><img src="img/imgsobre.svg" alt="111"></div>
+    </div>
+
+    <section class="sobre2">
+        <hr>
+        <li>Com anos de experiência no setor de hospitalidade, o Hotel DENIC se destaca pela sua
+            expertise em proporcionar uma estadia de qualidade superior. Nossos quartos e suítes
+            são projetados para oferecer o máximo de conforto e estilo, enquanto nossas instalações
+            – incluindo restaurante gourmet, spa, piscina e centro de conferências – atendem a
+            todas as necessidades dos nossos hóspedes.
+        </li>
+        <li>Nosso compromisso com a excelência é inabalável. Investimos continuamente na formação
+            de nossa equipe e na modernização de nossas instalações para garantir que o Hotel DENIC
+            permaneça na vanguarda da hospitalidade. Cada membro da nossa equipe compartilha a
+            paixão por servir e a dedicação a criar experiências inesquecíveis para nossos hóspedes.
+        </li>
+        <li>Convidamos você a descobrir tudo o que o Hotel DENIC tem a oferecer. Seja para uma
+            estadia curta ou uma longa temporada, para negócios ou lazer, estamos prontos para
+            recebê-lo com a hospitalidade calorosa que nos diferencia. Visite-nos e deixe-se
+            encantar pelo charme e elegância do Hotel DENIC.</li>
+        <hr>
+        <p>Estamos ansiosos para proporcionar a você uma estadia inesquecível.</p>
+        <hr>
+    </section>
+
+    <footer class="rodape" id="rodape">
+
+        <div class="rodape-contato">
+            <ul>
+                <li><i class="fa-solid fa-hotel"></i> Av. Maringá - 3040</li>
+                <li><i class="fa-solid fa-envelope"></i> hoteldenic@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> (44)99999-9999</li>
+            </ul>
+        </div>
+        
+        <div class="rodape-formulario">
+            <form action="#">
+            <label for="text" class="rodape-formulario__titulo">Nome</label><br>
+                <input type="text" id="text"><br>  
+            <label for="email" class="rodape-formulario__titulo">Email</label><br>
+                <input type="email" id="email">
+            </form>
+            <label for="mensagem" class="rodape-formulario__titulo">Deixe seu recado</label><br>
+            <textarea name="mensagem" id="mensagem"></textarea><br>
+            <div class="suite-botao">
+                <a href="">
+                    <div class="rodape-formulario__botao">ENVIAR</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="rodape-mapa">
+            <h2 class="rodape-mapa__titulo">LOCALIZAÇÃO</h2>
+            <iframe class="rodape-mapa__mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d542.8296095528342!2d-53.29518320289779!3d-23.75779777934522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1717889285519!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="sociais">
+            <h2 class="sociais-titulo">REDES SOCIAIS</h2>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <div class="direitos">
+        <p class="direitos-texto">
+            Copyright © 2024 - 2024 All rights reserved
+        </p>
+    </div>
+</body>
+</html>

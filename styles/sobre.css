@@ -1,0 +1,143 @@
+.sobre {
+    display: inline-block;
+    font-family: var(--font-principal);
+    color: var(--cor-textosecundaria);
+    text-align: center;
+    background-color: #f2f0e6;
+    padding-bottom: 35px;
+    
+}
+
+.sobre2 {
+    display: inline-block;
+    font-family: var(--font-principal);
+    color: var(--cor-textoprincipal);
+    background-color: #282b2f;
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sobre2 li {
+    padding: 3px;
+    text-align: left;
+}
+
+.imagemsobre {
+    display: flex;
+    
+}
+.imgsobre {
+    width: 100%;
+    
+     
+}
+
+.sobre2 p {
+    text-align: center;
+}
+
+.bemvindo {
+    margin: 20px 0px;
+    padding-left: 10px;
+    font-size: 26px;
+}
+
+.texto-linhaesq {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.texto-linhaesq2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 35px;
+
+}
+
+.texto-linhadir {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 35px;
+}
+
+.linha-horizontalesq {
+    width: 250px;
+    height: 2px;
+    background-color: #282b2f;
+}
+
+.linha-horizontaldir {
+    width: 250px;
+    height: 2px;
+    background-color: #282b2f;
+
+}
+
+.bemvindo {
+    margin-left: 30px;
+
+}
+
+.historia h1 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.historia p {
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.visao {
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.missao {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.valores {
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.textovisao {
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.textomissao {
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.textovalores {
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

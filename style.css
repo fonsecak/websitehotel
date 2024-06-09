@@ -1,5 +1,8 @@
 @import url(styles/header.css);
 @import url(styles/banner.css);
+@import url(styles/suites.css);
+@import url(styles/footer.css);
+@import url(styles/sobre.css);
 
 :root {
     --cor-fundoprincipal: #282B2F;
@@ -10,6 +13,7 @@
     --cor-textosecundaria: #282B2F;
     --font-principal: "Newsreader", serif;
 }
+
 
 body {
     background-color: var(--cor-fundosecundaria);
