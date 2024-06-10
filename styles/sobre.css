@@ -1,5 +1,5 @@
 .sobre {
-  display: inline-block;
+  display: block;
   font-family: var(--font-principal);
   color: var(--cor-textosecundaria);
   text-align: center;
